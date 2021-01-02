@@ -32,7 +32,7 @@ def mainloop(InnerFun, timeout=30, block=['None']):
 					
 				db.extract_data(contact)
 
-				if db.newMsg() and db.get_name() == 'Abpapa': #in people:  #CHAT FIJADO
+				if db.newMsg() and db.get_name() in people:  #CHAT FIJADO
 
 					hl.open_conversation(db.get_xpath_num(contact))
 					text 	 = db.get_message()
