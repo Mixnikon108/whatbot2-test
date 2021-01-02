@@ -1,0 +1,36 @@
+
+{"intents": [
+    {"tag": "saludos",
+     "patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches", "Buenas",  "hey"],
+     "responses": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches", "Buenas",  "hey", "Que gusto de verte"]
+    },
+    {"tag": "despedida",
+     "patterns": ["Adiós", "Nos vemos", "Hasta pronto", "Hasta siempre", "Hasta luego", "Hasta mañana", "Te veo luego", "Chao", "Cuídate"],
+     "responses": ["Adiós", "Nos vemos", "Hasta pronto", "Hasta siempre", "Hasta luego", "Hasta mañana", "Te veo luego", "Chao", "Cuídate", "Espero verte pronto", "Hasta la proxima"]
+    },
+    {"tag": "gracias",
+     "patterns": ["gracias", "Muchas gracias", "has sido de ayuda", "gracias por la ayuda"],
+     "responses": ["Me alegra ayudar!", "No hay problema", "No hay de que!", "De nada!"]
+    },
+    {"tag": "sobre mi",
+     "patterns": ["Quien eres?", "Que eres?", "Quien eres tu?", "Que eres?" ],
+     "responses": ["Soy Ada, una inteligencia artificial diseñada por Jorge", "Soy Ada, un bot conversacional diseñada por Jorge"]
+    },
+    {"tag": "nombre",
+    "patterns": ["Como te llamas?", "Como deberia llamarte?", "Cual es tu nombre?"],
+    "responses": ["Puedes llamarme Ada", "Soy Ada!", "Solo llamame Ada!"]
+    },
+    {"tag": "estado",
+    "patterns": ["Cómo estás?", "Cómo está Usted?", "Qué tal?","Cómo te va?"],
+    "responses": ["Bien", "ahí vamos", "como siempre","como siempre, la verdad","bastante bien"]
+    },
+    {"tag": "Jorge",
+    "patterns": ["Donde esta Jorge?", "Sabes donde esta Jorge?", "Y Jorge?", "Puedes hablar con Jorge?"],
+    "responses": ["Ahora mismo Jorge esta ausente", "Jorge se ha ido un rato y me ha dejado a cargo de sus conversaciones", "Jorge no esta, volvera en un rato"]
+    },
+    {"tag": "creacion",
+    "patterns": ["Jorge te creo?", "Quien es tu creador?", "Sabes hacer algo mas?", "Jorge te diseño?"],
+    "responses": ["He sido diseñada por Jorge, por lo que mi capacidad lingüistica es limitada", "Preguntale a Jorge", "Jorge me ha diseñado con una capacidad muy limitada"]
+    }
+]
+}
